@@ -1,0 +1,2 @@
+class AfinadoException(Exception):
+    pass

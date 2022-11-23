@@ -4,10 +4,12 @@ from Classes.Guitarra import Guitarra
 class Guitarra_Electrica(Guitarra):
     def __init__(self, nombre, tipo, num_cuerdas, potencia):
         super().__init__(nombre, tipo, num_cuerdas)
-        self.__potencia = potencia
+        self._potencia = potencia
 
-    def get_potencia(self):
-        return self.__potencia
+    @property
+    def potencia(self):
+        return self._potencia
 
-    def set_num_potencia(self, potencia):
-        self.__potencia = potencia
+    @potencia.setter
+    def potencia(self, potencia):
+        self._potencia = potencia

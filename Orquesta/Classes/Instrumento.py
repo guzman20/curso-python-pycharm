@@ -1,46 +1,56 @@
 import random
+from abc import ABC
 
 from Exceptions.AfinadoException import AfinadoException
 from Utils.Log_orquesta import log
+from decoradores.decorador_orquesta import log_orquesta
 
 
-class Instrumento:
+class Instrumento(ABC):
     def __init__(self, nombre, tipo):
-        self.__nombre = nombre
-        self.__tipo = tipo
-        self.__afinado = False
+        self._nombre = nombre
+        self._tipo = tipo
+        self._afinado = False
 
-    def get_nombre(self):
-        return self.__nombre
+    @property
+    def nombre(self):
+        return self._nombre
 
-    def set_nombre(self, nombre):
-        self.__nombre = nombre
+    @nombre.setter
+    def nombre(self, nombre):
+        self._nombre = nombre
 
-    def get_tipo(self):
-        return self.__tipo
+    @property
+    def tipo(self):
+        return self._tipo
 
-    def set_tipo(self, tipo):
-        self.__tipo = tipo
+    @tipo.setter
+    def tipo(self, tipo):
+        self._tipo = tipo
 
-    def get_afinado(self):
-        return self.__afinado
+    @property
+    def afinado(self):
+        return self._afinado
 
-    def set_afinado(self, afinado):
-        self.__afinado = afinado
+    @afinado.setter
+    def afinado(self, afinado):
+        self._afinado = afinado
 
+    @log_orquesta
     def afinar(self):
-        afinado = random.randint(0, 1)
-        if afinado == 0:
-            self.set_afinado(True)
-            log.info("El instrumento {} ha sido afinado".format(self.get_nombre))
+        afinacion = random.randint(0, 1)
+        if afinacion == 0:
+            self._afinado = True
+            log.info("El instrumento {} ha sido afinado".format(self.nombre))
+            return True
         else:
-            self.set_afinado(False)
-            log.info("El instrumento {} no se ha afinado".format(self.get_nombre))
+            self._afinado = False
+            log.info("El instrumento {} no se ha afinado".format(self.nombre))
+            return False
 
+    @log_orquesta
     def tocar(self):
-        if self.get_afinado():
-            log.info("El instrumento {} esta sonando".format(self.get_nombre))
-            return "El instrumento {} esta sonando".format(self.get_nombre)
+        if self.afinado:
+            return True
         else:
-            log.error("El instrumento {} no esta afinado y sonó mal".format(self.get_nombre))
             raise AfinadoException()

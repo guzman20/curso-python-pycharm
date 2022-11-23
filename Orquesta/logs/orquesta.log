@@ -1,0 +1,223 @@
+08:14:04 AM: INFO [Orquesta.py:14] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+08:18:14 AM: INFO [Orquesta.py:17] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+08:18:14 AM: INFO [Instrumento.py:38] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra.Guitarra object at 0x000002BF3BF22430>> no se ha afinado
+08:18:14 AM: INFO [Instrumento.py:35] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra_Electrica.Guitarra_Electrica object at 0x000002BF3BF22820>> ha sido afinado
+08:18:14 AM: INFO [Instrumento.py:35] El instrumento <bound method Instrumento.get_nombre of <Classes.Piano.Piano object at 0x000002BF3BF41910>> ha sido afinado
+08:18:14 AM: INFO [Instrumento.py:38] El instrumento <bound method Instrumento.get_nombre of <Classes.Tambor.Tambor object at 0x000002BF3BF41B80>> no se ha afinado
+08:18:14 AM: ERROR [Instrumento.py:45] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra.Guitarra object at 0x000002BF3BF22430>> no esta afinado y sonó mal
+08:20:28 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+08:20:28 AM: INFO [Instrumento.py:35] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra.Guitarra object at 0x00000217F9D82430>> ha sido afinado
+08:20:28 AM: INFO [Instrumento.py:35] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra_Electrica.Guitarra_Electrica object at 0x00000217F9D82820>> ha sido afinado
+08:20:28 AM: INFO [Instrumento.py:38] El instrumento <bound method Instrumento.get_nombre of <Classes.Piano.Piano object at 0x00000217F9DA1880>> no se ha afinado
+08:20:28 AM: INFO [Instrumento.py:35] El instrumento <bound method Instrumento.get_nombre of <Classes.Tambor.Tambor object at 0x00000217F9DA1B50>> ha sido afinado
+08:20:28 AM: INFO [Instrumento.py:42] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra.Guitarra object at 0x00000217F9D82430>> esta sonando
+08:20:28 AM: INFO [Instrumento.py:42] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra_Electrica.Guitarra_Electrica object at 0x00000217F9D82820>> esta sonando
+08:20:28 AM: ERROR [Instrumento.py:45] El instrumento <bound method Instrumento.get_nombre of <Classes.Piano.Piano object at 0x00000217F9DA1880>> no esta afinado y sonó mal
+08:20:28 AM: INFO [Instrumento.py:42] El instrumento <bound method Instrumento.get_nombre of <Classes.Tambor.Tambor object at 0x00000217F9DA1B50>> esta sonando
+08:20:47 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+08:20:47 AM: INFO [Instrumento.py:35] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra.Guitarra object at 0x000001F5A5BC2430>> ha sido afinado
+08:20:47 AM: INFO [Instrumento.py:38] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra_Electrica.Guitarra_Electrica object at 0x000001F5A5BC2820>> no se ha afinado
+08:20:47 AM: INFO [Instrumento.py:38] El instrumento <bound method Instrumento.get_nombre of <Classes.Piano.Piano object at 0x000001F5A5BC2970>> no se ha afinado
+08:20:47 AM: INFO [Instrumento.py:35] El instrumento <bound method Instrumento.get_nombre of <Classes.Tambor.Tambor object at 0x000001F5A5BC29D0>> ha sido afinado
+08:20:47 AM: INFO [Instrumento.py:42] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra.Guitarra object at 0x000001F5A5BC2430>> esta sonando
+08:20:47 AM: ERROR [Instrumento.py:45] El instrumento <bound method Instrumento.get_nombre of <Classes.Guitarra_Electrica.Guitarra_Electrica object at 0x000001F5A5BC2820>> no esta afinado y sonó mal
+08:20:47 AM: ERROR [Instrumento.py:45] El instrumento <bound method Instrumento.get_nombre of <Classes.Piano.Piano object at 0x000001F5A5BC2970>> no esta afinado y sonó mal
+08:20:47 AM: INFO [Instrumento.py:42] El instrumento <bound method Instrumento.get_nombre of <Classes.Tambor.Tambor object at 0x000001F5A5BC29D0>> esta sonando
+09:02:22 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:07:07 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:12:17 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:12:17 AM: INFO [Instrumento.py:42] El instrumento Española ha sido afinado
+09:12:17 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:12:17 AM: INFO [Instrumento.py:46] El instrumento Clasico no se ha afinado
+09:12:17 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:12:17 AM: INFO [Instrumento.py:51] El instrumento Española esta sonando
+09:12:17 AM: ERROR [Instrumento.py:54] El instrumento Bajo no esta afinado y sonó mal
+09:12:38 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:12:38 AM: INFO [Instrumento.py:42] El instrumento Española ha sido afinado
+09:12:38 AM: INFO [Instrumento.py:42] El instrumento Bajo ha sido afinado
+09:12:38 AM: INFO [Instrumento.py:42] El instrumento Clasico ha sido afinado
+09:12:38 AM: INFO [Instrumento.py:46] El instrumento Tamborilete no se ha afinado
+09:12:38 AM: INFO [Instrumento.py:51] El instrumento Española esta sonando
+09:12:38 AM: INFO [Instrumento.py:51] El instrumento Bajo esta sonando
+09:12:38 AM: INFO [Instrumento.py:51] El instrumento Clasico esta sonando
+09:12:38 AM: ERROR [Instrumento.py:54] El instrumento Tamborilete no esta afinado y sonó mal
+09:14:51 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:14:51 AM: INFO [Instrumento.py:46] El instrumento Española no se ha afinado
+09:14:51 AM: INFO [Instrumento.py:42] El instrumento Bajo ha sido afinado
+09:14:51 AM: INFO [Instrumento.py:42] El instrumento Clasico ha sido afinado
+09:14:51 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:14:51 AM: ERROR [Instrumento.py:54] El instrumento Española no esta afinado y sonó mal
+09:14:51 AM: INFO [Instrumento.py:51] El instrumento Bajo esta sonando
+09:14:51 AM: INFO [Instrumento.py:51] El instrumento Clasico esta sonando
+09:14:51 AM: INFO [Instrumento.py:51] El instrumento Tamborilete esta sonando
+09:14:53 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:14:53 AM: INFO [Instrumento.py:42] El instrumento Española ha sido afinado
+09:14:53 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:14:53 AM: INFO [Instrumento.py:42] El instrumento Clasico ha sido afinado
+09:14:53 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:14:53 AM: INFO [Instrumento.py:51] El instrumento Española esta sonando
+09:14:53 AM: ERROR [Instrumento.py:54] El instrumento Bajo no esta afinado y sonó mal
+09:14:53 AM: INFO [Instrumento.py:51] El instrumento Clasico esta sonando
+09:14:53 AM: INFO [Instrumento.py:51] El instrumento Tamborilete esta sonando
+09:14:55 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:14:55 AM: INFO [Instrumento.py:46] El instrumento Española no se ha afinado
+09:14:55 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:14:55 AM: INFO [Instrumento.py:46] El instrumento Clasico no se ha afinado
+09:14:55 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:14:55 AM: ERROR [Instrumento.py:54] El instrumento Española no esta afinado y sonó mal
+09:14:55 AM: ERROR [Instrumento.py:54] El instrumento Bajo no esta afinado y sonó mal
+09:14:55 AM: ERROR [Instrumento.py:54] El instrumento Clasico no esta afinado y sonó mal
+09:14:55 AM: INFO [Instrumento.py:51] El instrumento Tamborilete esta sonando
+09:14:57 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:14:57 AM: INFO [Instrumento.py:46] El instrumento Española no se ha afinado
+09:14:57 AM: INFO [Instrumento.py:42] El instrumento Bajo ha sido afinado
+09:14:57 AM: INFO [Instrumento.py:42] El instrumento Clasico ha sido afinado
+09:14:57 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:14:57 AM: ERROR [Instrumento.py:54] El instrumento Española no esta afinado y sonó mal
+09:14:57 AM: INFO [Instrumento.py:51] El instrumento Bajo esta sonando
+09:14:57 AM: INFO [Instrumento.py:51] El instrumento Clasico esta sonando
+09:14:57 AM: INFO [Instrumento.py:51] El instrumento Tamborilete esta sonando
+09:14:59 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:14:59 AM: INFO [Instrumento.py:42] El instrumento Española ha sido afinado
+09:14:59 AM: INFO [Instrumento.py:42] El instrumento Bajo ha sido afinado
+09:14:59 AM: INFO [Instrumento.py:46] El instrumento Clasico no se ha afinado
+09:14:59 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:14:59 AM: INFO [Instrumento.py:51] El instrumento Española esta sonando
+09:14:59 AM: INFO [Instrumento.py:51] El instrumento Bajo esta sonando
+09:14:59 AM: ERROR [Instrumento.py:54] El instrumento Clasico no esta afinado y sonó mal
+09:14:59 AM: INFO [Instrumento.py:51] El instrumento Tamborilete esta sonando
+09:15:00 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:15:00 AM: INFO [Instrumento.py:42] El instrumento Española ha sido afinado
+09:15:00 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:15:00 AM: INFO [Instrumento.py:46] El instrumento Clasico no se ha afinado
+09:15:00 AM: INFO [Instrumento.py:46] El instrumento Tamborilete no se ha afinado
+09:15:00 AM: INFO [Instrumento.py:51] El instrumento Española esta sonando
+09:15:00 AM: ERROR [Instrumento.py:54] El instrumento Bajo no esta afinado y sonó mal
+09:15:00 AM: ERROR [Instrumento.py:54] El instrumento Clasico no esta afinado y sonó mal
+09:15:00 AM: ERROR [Instrumento.py:54] El instrumento Tamborilete no esta afinado y sonó mal
+09:18:06 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:18:06 AM: INFO [Instrumento.py:42] El instrumento Española ha sido afinado
+09:18:06 AM: INFO [Instrumento.py:42] El instrumento Bajo ha sido afinado
+09:18:06 AM: INFO [Instrumento.py:42] El instrumento Clasico ha sido afinado
+09:18:06 AM: INFO [Instrumento.py:46] El instrumento Tamborilete no se ha afinado
+09:18:06 AM: INFO [Instrumento.py:51] El instrumento Española esta sonando
+09:18:06 AM: INFO [Instrumento.py:51] El instrumento Bajo esta sonando
+09:18:06 AM: INFO [Instrumento.py:51] El instrumento Clasico esta sonando
+09:18:06 AM: ERROR [Instrumento.py:54] El instrumento Tamborilete no esta afinado y sonó mal
+09:22:14 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:24:19 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:24:26 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:24:36 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:24:44 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:24:44 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas
+09:25:03 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:25:03 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:25:10 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:25:10 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:25:10 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:25:18 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:25:18 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:25:18 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:25:18 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+09:25:18 AM: INFO [Instrumento.py:46] El instrumento Española no se ha afinado
+09:25:18 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:25:18 AM: INFO [Instrumento.py:46] El instrumento Clasico no se ha afinado
+09:25:18 AM: INFO [Instrumento.py:46] El instrumento Tamborilete no se ha afinado
+09:25:18 AM: ERROR [Instrumento.py:54] El instrumento Española no esta afinado y sonó mal
+09:25:18 AM: ERROR [Orquesta.py:43] El instrumento no estaba afinado y sono mal
+09:25:18 AM: ERROR [Instrumento.py:54] El instrumento Bajo no esta afinado y sonó mal
+09:25:18 AM: ERROR [Orquesta.py:43] El instrumento no estaba afinado y sono mal
+09:25:18 AM: ERROR [Instrumento.py:54] El instrumento Clasico no esta afinado y sonó mal
+09:25:18 AM: ERROR [Orquesta.py:43] El instrumento no estaba afinado y sono mal
+09:25:18 AM: ERROR [Instrumento.py:54] El instrumento Tamborilete no esta afinado y sonó mal
+09:25:18 AM: ERROR [Orquesta.py:43] El instrumento no estaba afinado y sono mal
+09:30:16 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:30:16 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:30:16 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:30:16 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+09:30:16 AM: INFO [Instrumento.py:46] El instrumento Española no se ha afinado
+09:30:16 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:30:16 AM: INFO [Instrumento.py:46] El instrumento Clasico no se ha afinado
+09:30:16 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:30:16 AM: ERROR [Instrumento.py:54] El instrumento Española no esta afinado y sonó mal
+09:30:16 AM: ERROR [Orquesta.py:43] El instrumento no estaba afinado y sono mal
+09:30:16 AM: ERROR [Instrumento.py:54] El instrumento Bajo no esta afinado y sonó mal
+09:30:16 AM: ERROR [Orquesta.py:43] El instrumento no estaba afinado y sono mal
+09:30:16 AM: ERROR [Instrumento.py:54] El instrumento Clasico no esta afinado y sonó mal
+09:30:16 AM: ERROR [Orquesta.py:43] El instrumento no estaba afinado y sono mal
+09:30:16 AM: INFO [Instrumento.py:51] El instrumento Tamborilete esta sonando
+09:37:43 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:37:43 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:37:43 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:37:43 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+09:37:43 AM: INFO [Instrumento.py:42] El instrumento Española ha sido afinado
+09:37:43 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:37:43 AM: INFO [Instrumento.py:46] El instrumento Clasico no se ha afinado
+09:37:43 AM: INFO [Instrumento.py:46] El instrumento Tamborilete no se ha afinado
+09:37:43 AM: INFO [Instrumento.py:51] El instrumento Española esta sonando
+09:37:43 AM: ERROR [Instrumento.py:54] El instrumento Bajo no esta afinado y sonó mal
+09:37:43 AM: ERROR [Orquesta.py:43] El instrumento Bajo no estaba afinado y sono mal
+09:37:43 AM: ERROR [Instrumento.py:54] El instrumento Clasico no esta afinado y sonó mal
+09:37:43 AM: ERROR [Orquesta.py:43] El instrumento Clasico no estaba afinado y sono mal
+09:37:43 AM: ERROR [Instrumento.py:54] El instrumento Tamborilete no esta afinado y sonó mal
+09:37:43 AM: ERROR [Orquesta.py:43] El instrumento Tamborilete no estaba afinado y sono mal
+09:39:38 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:39:38 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:39:38 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:39:38 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+09:39:38 AM: INFO [Instrumento.py:46] El instrumento Española no se ha afinado
+09:39:38 AM: INFO [Instrumento.py:42] El instrumento Bajo ha sido afinado
+09:39:38 AM: INFO [Instrumento.py:42] El instrumento Clasico ha sido afinado
+09:39:38 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:39:38 AM: ERROR [Orquesta.py:44] El instrumento Española no estaba afinado y sono mal
+09:39:38 AM: INFO [Orquesta.py:42] El instrumento Bajo esta sonando
+09:39:38 AM: INFO [Orquesta.py:42] El instrumento Clasico esta sonando
+09:39:38 AM: INFO [Orquesta.py:42] El instrumento Tamborilete esta sonando
+09:40:01 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:40:01 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:40:01 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:40:01 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+09:40:01 AM: INFO [Instrumento.py:46] El instrumento Española no se ha afinado
+09:40:01 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:40:01 AM: INFO [Instrumento.py:46] El instrumento Clasico no se ha afinado
+09:40:01 AM: INFO [Instrumento.py:46] El instrumento Tamborilete no se ha afinado
+09:40:01 AM: ERROR [Orquesta.py:44] El instrumento Española no estaba afinado y sono mal
+09:40:01 AM: ERROR [Orquesta.py:44] El instrumento Bajo no estaba afinado y sono mal
+09:40:01 AM: ERROR [Orquesta.py:44] El instrumento Clasico no estaba afinado y sono mal
+09:40:01 AM: ERROR [Orquesta.py:44] El instrumento Tamborilete no estaba afinado y sono mal
+09:40:08 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:40:08 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:40:08 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:40:08 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+09:40:08 AM: INFO [Instrumento.py:42] El instrumento Española ha sido afinado
+09:40:08 AM: INFO [Instrumento.py:46] El instrumento Bajo no se ha afinado
+09:40:08 AM: INFO [Instrumento.py:42] El instrumento Clasico ha sido afinado
+09:40:08 AM: INFO [Instrumento.py:42] El instrumento Tamborilete ha sido afinado
+09:40:08 AM: INFO [Orquesta.py:42] El instrumento Española esta afinado y esta sonando
+09:40:08 AM: ERROR [Orquesta.py:44] El instrumento Bajo no estaba afinado y sono mal
+09:40:08 AM: INFO [Orquesta.py:42] El instrumento Clasico esta afinado y esta sonando
+09:40:08 AM: INFO [Orquesta.py:42] El instrumento Tamborilete esta afinado y esta sonando
+09:44:33 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:44:33 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:44:33 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:44:33 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+09:48:26 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:48:26 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:48:26 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:48:26 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+09:48:34 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+09:48:34 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+09:48:34 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+09:48:34 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+10:00:51 AM: INFO [Orquesta.py:18] Guitarra ha sido creada con las caracteristicas Española, guitarra y 10
+10:00:51 AM: INFO [Orquesta.py:22] Guitarra electrica ha sido creada con las caracteristicas Bajo, electrica, 8 y 120
+10:00:51 AM: INFO [Orquesta.py:27] Piano ha sido creado con las caracteristicas Clasico, cuerda y 70
+10:00:51 AM: INFO [Orquesta.py:31] Tambor ha sido creado con las caracteristicas Tamborilete, piel y mediano
+10:00:51 AM: INFO [Instrumento.py:48] El instrumento Española no se ha afinado
+10:00:51 AM: INFO [Instrumento.py:48] El instrumento Bajo no se ha afinado
+10:00:51 AM: INFO [Instrumento.py:48] El instrumento Clasico no se ha afinado
+10:00:51 AM: INFO [Instrumento.py:48] El instrumento Tamborilete no se ha afinado
+10:00:51 AM: ERROR [Orquesta.py:44] El instrumento Española no estaba afinado y sono mal
+10:00:51 AM: ERROR [Orquesta.py:44] El instrumento Bajo no estaba afinado y sono mal
+10:00:51 AM: ERROR [Orquesta.py:44] El instrumento Clasico no estaba afinado y sono mal
+10:00:51 AM: ERROR [Orquesta.py:44] El instrumento Tamborilete no estaba afinado y sono mal

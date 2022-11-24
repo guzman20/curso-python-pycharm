@@ -63,7 +63,8 @@ if __name__ == '__main__':
             # Por alumno
             for alumno in colegio.lista_alumnos().values():
                 # Creamos la linea del alumno con su informacion dividida por tuberias
-                string = colegio.nombre + SEPARADOR_ALUMNOS + alumno.nombre + SEPARADOR_ALUMNOS + alumno.apellidos + SEPARADOR_ALUMNOS + alumno.dni + SEPARADOR_ALUMNOS
+                string = colegio.nombre + SEPARADOR_ALUMNOS + alumno.nombre + SEPARADOR_ALUMNOS + alumno.apellidos + \
+                         SEPARADOR_ALUMNOS + alumno.dni + SEPARADOR_ALUMNOS
                 # Hacemos la lista de asignaturas divididas por el punto y coma
                 for asignatura in alumno.notas():
                     if alumno.notas()[-1] != asignatura:

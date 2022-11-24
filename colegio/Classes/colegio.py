@@ -24,6 +24,10 @@ class Colegio:
 
     def to_string(self):
         string = "{} tiene los alumnos: ".format(self.nombre)
-        for alumno in self._lista_alumnos.values():
-            string += alumno.to_string()+", "
+        lista_alumnos = list(self._lista_alumnos.values())
+        for alumno in lista_alumnos:
+            if alumno != lista_alumnos[-1]:
+                string += alumno.to_string()+", "
+            else:
+                string += alumno.to_string()
         return string

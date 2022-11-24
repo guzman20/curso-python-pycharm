@@ -2,10 +2,10 @@ from Classes.alumno import Alumno
 from Classes.colegio import Colegio
 
 if __name__ == '__main__':
+    colegios = {}
     try:
         # leemos el archivo y creamos un diccionario para los colegios
         archivo = open('alumnos-colegio.txt', 'r')
-        colegios = {}
         # Recorremos las lineas del archivo txt
         for linea in archivo:
             # Dividimos la lineas por las | que separan los elementos
@@ -45,3 +45,19 @@ if __name__ == '__main__':
     finally:
         # Importante cerramos el archivo incluso si da error de lectura
         archivo.close()
+    try:
+        archivo = open("prueba2.txt", 'w')
+        for colegio in colegios.values():
+            for alumno in colegio.lista_alumnos().values():
+                string = colegio.nombre + "|" + alumno.nombre + "|" + alumno.apellidos + "|" + alumno.dni + "|"
+                for asignatura in alumno.notas():
+                    if alumno.notas()[-1] != asignatura:
+                        string = string + asignatura + ";"
+                    else:
+                        string = string + asignatura
+                archivo.write(string)
+    except IOError:
+        print("Error")
+    finally:
+        archivo.close()
+

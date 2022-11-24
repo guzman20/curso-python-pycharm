@@ -43,5 +43,8 @@ class Alumno:
                                                                  self.apellidos,
                                                                  self.dni)
         for asignatura in self._asignaturas:
-            string += asignatura + ", "
+            if self._asignaturas[-1] != asignatura:
+                string += asignatura + ", "
+            else:
+                string += asignatura
         return string

@@ -1,0 +1,27 @@
+CREATE TABLE `curso_python`.`gran_premio` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(45) NULL,
+  `distancia` INT NULL DEFAULT 500,
+  `num_carreras` INT NULL DEFAULT 3,
+  PRIMARY KEY (`id`));
+
+CREATE TABLE `curso_python`.`apostantes` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(45) NULL,
+  `saldo` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+CREATE TABLE `caballos` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) DEFAULT NULL,
+  `fecha_nacimiento` varchar(45) DEFAULT NULL,
+  `velocidad` int DEFAULT NULL,
+  `experiencia` int DEFAULT NULL,
+  `valor_apuesta` int DEFAULT NULL,
+  `id_gran_premio` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `id_gran_premio` FOREIGN KEY (`id`) REFERENCES `gran_premio` (`id`),
+  CONSTRAINT `caballos_chk_1` CHECK (((1 < `velocidad`) and (`velocidad` < 100))),
+  CONSTRAINT `caballos_chk_2` CHECK (((1 < `experiencia`) and (`experiencia` < 100))),
+  CONSTRAINT `caballos_chk_3` CHECK (((1 < `valor_apuesta`) and (`valor_apuesta` < 10)))
+);

@@ -1,6 +1,6 @@
 import random
 
-from Classes.Nombrable import Nombrable
+from Entidades.Nombrable import Nombrable
 
 
 class Apostante(Nombrable):

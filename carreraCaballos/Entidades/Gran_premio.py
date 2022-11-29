@@ -1,5 +1,5 @@
-from Classes.Carrera import Carrera
-from Classes.Nombrable import Nombrable
+from Entidades.Carrera import Carrera
+from Entidades.Nombrable import Nombrable
 
 
 class Gran_premio(Nombrable):
@@ -31,12 +31,25 @@ class Gran_premio(Nombrable):
         for caballo in lista_caballos_general:
             if caballo.gran_premio == self.id:
                 lista_caballos.append(caballo)
-        for apostante in lista_apostantes:
-            apuesta = apostante.apostar(lista_caballos)
-            if apuesta is None:
-                pass
-            else:
-                diccionario_apuestas[apuesta[0]] = apuesta[1]
-        while contador < self.num_carreras:
-            carrera = Carrera(lista_caballos)
 
+        while contador < self.num_carreras:
+            for apostante in lista_apostantes:
+                apuesta = apostante.apostar(lista_caballos)
+                if apuesta is None:
+                    pass
+                else:
+                    diccionario_apuestas[apuesta[0]] = apuesta[1]
+            carrera = Carrera(lista_caballos)
+            ganador = carrera.iniciar(self.distancia)
+            for caballo in lista_caballos:
+                if caballo is ganador:
+                    caballo.experiencia += 5
+                else:
+                    caballo.experiencia += 1
+            for caballo in diccionario_apuestas.keys():
+                if caballo is ganador:
+                    lista_apostantes.saldo += diccionario_apuestas[caballo].apuesta * caballo.valor_apuesta
+                else:
+                    lista_apostantes.saldo -= diccionario_apuestas[caballo].apuesta
+
+        return lista_caballos, lista_apostantes

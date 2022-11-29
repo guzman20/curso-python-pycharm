@@ -1,6 +1,6 @@
 import random
 
-from Classes.Nombrable import Nombrable
+from Entidades.Nombrable import Nombrable
 
 
 class Caballo(Nombrable):
@@ -57,4 +57,7 @@ class Caballo(Nombrable):
         self._gran_premio = gran_premio
 
     def correr(self):
-        return self.velocidad + self.experiencia - edad + random.randint(1, 50)
+        return self.velocidad+self.experiencia-self.edad()+random.randint(1, 50)
+
+    def edad(self):
+        return int(self.fecha_nacimiento.stip("-")[0])-2000

@@ -1,4 +1,6 @@
-from Classes.Apuesta import Apuesta
+import random
+
+from Entidades.Apuesta import Apuesta
 
 
 class Carrera:
@@ -16,8 +18,12 @@ class Carrera:
         self._lista_caballos = lista_caballos
 
     def iniciar(self, distancia):
-        distancia_recorrida_por_caballo={}
+        distancia_recorrida_por_caballo = {}
         for caballo in self.lista_caballos:
             distancia_recorrida_por_caballo[caballo] = 0
         while distancia > any(list(distancia_recorrida_por_caballo.values())):
-
+            for caballo in distancia_recorrida_por_caballo.keys():
+                distancia_recorrida_por_caballo[caballo] += caballo.correr()
+                if distancia_recorrida_por_caballo[caballo] > distancia:
+                    return caballo
+        return False

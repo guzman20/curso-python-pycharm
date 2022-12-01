@@ -43,7 +43,7 @@ def listar_equipos_mundial(request):
     contexto = {"listado_selecciones": lista_selecciones_ordenada, "titulo_tabla": titulo,
                 "listado_continentes": LISTA_CONTINENTES}
 
-    return render(request, "mundial/equipos.html", contexto)
+    return render(request, "mundial/equipos/lista_equipos.html", contexto)
 
 
 def aniadir_equipo(request):
@@ -72,4 +72,4 @@ def aniadir_equipo(request):
         return render(request, "mundial/añadir_equipo.html", contexto)
     else:
         contexto = {"titulo_tabla": titulo, "listado_continentes": LISTA_CONTINENTES}
-        return render(request, "mundial/añadir_equipo.html", contexto)
+        return render(request, "mundial/equipos/añadir_equipo.html", contexto)

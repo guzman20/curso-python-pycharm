@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c0e08e-da53-45e4-b100-022940c5c1f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/migrations/0002_coche_cliente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/templates/aniadir_cliente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/clientes/views.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/migrations/0002_coche_rename_persona_cliente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/migrations/0003_rename_cliente_persona_delete_coche.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/primerProyectoDjango/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/primerProyectoDjango/webapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/primerProyectoDjango/webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primerProyectoDjango/webapp/templates/bienvenido.html" beforeDir="false" afterPath="$PROJECT_DIR$/primerProyectoDjango/webapp/templates/bienvenido.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>

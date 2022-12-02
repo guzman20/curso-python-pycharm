@@ -11,21 +11,21 @@
         <legend>Filtro</legend>
         <label>Posicion: <input type="text" name="posicion" list="posiciones"/>
             <datalist id="posiciones">
-                {% for continente in listado_continentes %}
+                {% for posiciones in listado_posiciones %}
                 <option value="{{posicion}}"></option>
                 {% endfor %}
             </datalist>
         </label>
         <label>Nacionalidad: <input type="text" name="nacionalidad" list="nacionalidades"/>
             <datalist id="nacionalidades">
-                {% for continente in listado_continentes %}
+                {% for nacionalidad in listado_nacionalidades %}
                 <option value="{{nacionalidad}}"></option>
                 {% endfor %}
             </datalist>
         </label>
         <label>Equipos: <input type="text" name="equipo" list="equipos"/>
             <datalist id="equipos">
-                {% for continente in listado_continentes %}
+                {% for equipo in listado_equipos %}
                 <option value="{{equipo}}"></option>
                 {% endfor %}
             </datalist>
@@ -45,18 +45,23 @@
       <td>Equipo</td>
       <td>Edad</td>
       <td>Nacionalidad</td>
-      <td>Pais</td>
+      <td>Posicion</td>
     </tr>
-  {% for jugador in listado_jugadores %}
+  {% for jugador in jugadores %}
     <tr>
       <td align="center">{{jugador.nombre}}</td>
       <td align="center">{{jugador.equipo}}</td>
+      <td align="center">{{jugador.edad}}</td>
       <td align="center">{{jugador.nacionalidad}}</td>
-      <td align="center">{{jugador.nacionalidad}}</td>
+      <td align="center">{{jugador.posicion}}</td>
+      <td>
+          <a href="{% url 'eliminar_jugador' %}?id_jugador={{jugador.id}}">Borrar</a>
+          <a href="{% url 'add_jugador' %}?id_jugador={{jugador.id}}">Modificar Jugador</a>
+      </td>
     </tr>
   {% endfor %}
   </table>
     <a href="{% url 'inicio' %}">Inicio</a>
-    <a href="{% url 'aniadir_equipo' %}">Añadir Equipo</a>
+    <a href="{% url 'add_jugador' %}">Añadir Jugador</a>
 </body>
 </html>
